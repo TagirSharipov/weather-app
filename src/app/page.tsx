@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
@@ -18,11 +19,9 @@ export default function Home() {
 
 
       <div className={styles.grid}>
-        <a
+        <Link
           href="/search"
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
             Search weather <span>-&gt;</span>
@@ -30,13 +29,11 @@ export default function Home() {
           <p className={inter.className}>
             Client Side weather search
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/forecast"
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
             Forecast <span>-&gt;</span>
@@ -44,7 +41,7 @@ export default function Home() {
           <p className={inter.className}>
             Server-side generation of Rome weather forecast
           </p>
-        </a>
+        </Link>
       </div>
     </main>
   )

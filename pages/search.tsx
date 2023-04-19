@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import DayWeather from "@/components/DayWeather";
-import style from './forecast.module.css';
+import style from './search.module.css';
 
 function Forecast() {
   const [data, setData] = useState()
