@@ -1,5 +1,5 @@
 This is a coding task project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-I decided not to proceed with the job offer because the company's budget was under my demand. However, I did the task in order to become familiar with the new 13th version of NextJS (beta at the moment of writing this text) where the React Server Components and React 18 features were implemented.
+I decided not to proceed with the job offer because the company's budget was under my demand. However, I did the task in order to become familiar with the new 13th version of NextJS (beta at the moment of writing this text) where Server Components and React 18 features were implemented.
 
 ## Task
 Create a web application based on **NextJS 13** (make sure to *use the new “**app”** folder*) with TypeScript
