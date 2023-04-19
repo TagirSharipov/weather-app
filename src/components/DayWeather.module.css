@@ -1,0 +1,6 @@
+.day {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+}

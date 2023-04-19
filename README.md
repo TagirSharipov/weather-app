@@ -1,5 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a coding task project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I decided not to proceed with the job offer because the company's budget was under my demand. However, I did the task in order to become familiar with the 13th version of NextJS (beta at the moment of writing this text).
 
+## Task
+Create a web application based on **NextJS 13** (make sure to *use the new “**app”** folder*) with TypeScript
+
+This application **must expose 3 pages**:
+
+- First page must be SSG (Static Site Generation) and show the build date timestamp.
+- The second page must be SSR (Server Side Rendered) and should query the weather api with a default location eg: Rome, and show a daily forecast for the next 7 days.
+- The third page must be a Client Side and should expose the preloaded data of the weather in Rome and with an input allow the user to ask the weather for a specific city, and show a daily forecast for the next 7 days.
+
+The dev must create components, hooks and use standard css modules to style components.
+
+**NB: As weather service [this one](https://www.weatherapi.com/signup.aspx) in free mode can be used**
 ## Getting Started
 
 First, run the development server:
@@ -14,23 +27,3 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
